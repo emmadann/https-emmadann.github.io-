@@ -1,0 +1,1117 @@
+/* colors
+sage green
+#CED7CB
+brown
+#4A3E33 */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+body {
+  background-color: #f5ebe5;
+}
+
+/*********NAV BAR STYLING*********/
+
+.top-nav,
+.header,
+.navbar,
+.nav-link,
+.nav-item,
+.nav-menu,
+.hamburger,
+.bar,
+.nav-logo {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.nav-header {
+  display: block;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 1.5rem 2rem 1.5rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 4rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: white;
+  font-family: roboto condensed;
+}
+
+.nav-link:hover {
+  color: #9cb5a1;
+}
+
+.nav-logo {
+  font-size: 4rem;
+  color: white;
+  font-family: tangerine;
+  display: fixed;
+}
+
+/********END NAV STYLING*******/
+
+h1,
+a,
+h2,
+header p {
+  margin-bottom: 8px;
+}
+
+.abf-header {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+h1 {
+  font-family: italiana;
+  font-size: 10rem;
+  color: white;
+}
+
+.ssfe {
+  font-family: roboto condensed;
+  font-weight: 100;
+  font-size: 1.953rem;
+  color: white;
+  padding-top: 20px;
+}
+
+.whycarebutton {
+  box-shadow: 0px 5px 19px -4px #353834;
+  background-color: #f0ede8;
+  border: 1px solid #1d2e15;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: roboto condensed;
+  font-size: 1.953rem;
+  padding: 1.5rem 3.5rem;
+  text-decoration: none;
+  margin-top: 30px;
+  flex-basis: fit-content;
+}
+
+.whycarebutton:hover {
+  background-color: #b8c0af;
+}
+.whycarebutton:active {
+  position: relative;
+  top: 1px;
+}
+.abf-wrapper {
+  padding: 8px 20px 100px 10px;
+  background-color: #4a3e33;
+  background-image: url("https://res.cloudinary.com/dnneqsm9j/image/upload/v1650744017/evolution%20again/IMG_5500_h6qnku.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: contain;
+}
+/*END OF ABOVE THE FOLD STYLING*/
+
+/*EMAIL SIGN UP STYLING*/
+
+.nb {
+  background-color: white;
+  background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1650809291/evolution%20again/Group_40_cbdeyj.svg),
+    url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651516584/evolution%20again/Vector_3_1_m3hevz.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, 100%;
+  background-position: center, center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.natural {
+  color: black;
+  font-family: italiana;
+  font-size: 6rem;
+  font-weight: 300;
+  text-align: left;
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+
+.beautiful {
+  color: black;
+  font-family: italiana;
+  font-size: 6rem;
+  font-weight: 300;
+  margin-top: 300px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.whycaresection {
+  /* temp styles */
+  background-color: #4a3e33;
+  background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1650846512/evolution%20again/Vector_4_i6kddc.png),
+    url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1650846471/evolution%20again/Vector_5_xxbt2q.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, 100%;
+  background-position: 50% 95%, 50% 10%;
+  padding-bottom: 25%;
+}
+
+.whycaretitle {
+  font-family: italiana;
+  text-transform: uppercase;
+  font-size: 4.768rem;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 40px;
+  color: white;
+}
+.flexparent-sustainability {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 0;
+  gap: 5%;
+}
+
+.glowsection,
+.societalsection,
+.carbonsection {
+  padding: 0;
+}
+.societal-image,
+.glow-image,
+.carbon-image {
+  width: 100%;
+}
+
+.societaltitle,
+.carbontitle,
+.glowskintitle {
+  font-family: Belleza;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+
+.societalparagraph,
+.carbonparagraph,
+.glowskinparagraph {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+/* end of third page!!!! */
+
+/* Start of 4th page oof */
+
+
+.nvc-wrapper {
+  background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651602304/evolution%20again/da96634917396da22e8eaca31f9dc3bb_sdt579.jpg), url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651635728/evolution%20again/Untitled_Artwork_9_cdapks_zf3xfe.png);
+  background-repeat: no-repeat,no-repeat;
+  background-size: 60%, 80%;
+  background-position: 120%,0% 60%;
+  background-color: black;
+  padding-bottom: 30%;
+}
+
+.nvctitle{
+  font-family: italiana;
+  text-transform: uppercase;
+  font-size: 6rem;
+  margin-top: 80px;
+  color: white;
+  
+}
+
+.nvc-introparagraph{
+  font-family: roboto condensed;
+  font-size: 2em;
+  line-height: 1.5;
+  color: white;
+  padding-right: 500px;
+  
+}
+
+/* end 4th page */
+
+
+
+
+
+/* start 5th page */
+
+.shopsection {
+  /* temp styles */
+  background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651622418/evolution%20again/Group_72_hlvk1m.png);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  
+ }
+
+.shoptitle {
+  font-family: italiana;
+  text-transform: uppercase;
+  font-size: 10rem;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.shopdetails{
+  color: white;
+  font-family: roboto condensed;
+  text-align: center;
+  font-size: 2rem;
+  
+}
+
+
+.flexparent-sustainability2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 0%;
+}
+
+/* insert buttons here */
+.facetheory {
+	background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651615498/evolution%20again/Group_64_k1r3e3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+	border-radius:none;
+	display:inline-block;
+	cursor:pointer;
+	color:transparent;
+	font-size:0px;
+	padding:200px 150px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-left: -110px ;
+}
+.facetheory:hover {
+	background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651616418/evolution%20again/Group_66_jludpv.png);
+  background-position: center;
+}
+.facetheory:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+.ilia {
+	background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651614686/evolution%20again/Group_62_ccvztb.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+	border-radius:none;
+	display:inline-block;
+	cursor:pointer;
+	color:transparent;
+	font-size:0px;
+	padding:200px 150px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-left: -110px ;
+}
+.ilia:hover {
+	background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651616751/evolution%20again/Group_68_1_katwti.png);
+}
+.ilia:active {
+	position:relative;
+	top:1px;
+}
+
+
+.wedo {
+	background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651615229/evolution%20again/Group_62_1_lcurki.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+	border-radius:none;
+	display:inline-block;
+	cursor:pointer;
+	color:transparent;
+	font-size:0px;
+	padding:200px 150px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-left: -110px ;
+}
+.wedo:hover {
+	background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651616537/evolution%20again/Group_67_uqur4u.png);
+}
+.wedo:active {
+	position:relative;
+	top:1px;
+}
+
+.uni {
+	background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651615646/evolution%20again/Group_65_w48hyl.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+	border-radius:none;
+	display:inline-block;
+	cursor:pointer;
+	color:transparent;
+	font-size:0px;
+	padding:200px 150px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-top: 0px;
+  margin-left: -110px ;
+}
+.uni:hover {
+	background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651617012/evolution%20again/Group_69_koeya1.png);
+}
+.uni:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+/* END FIFTH PAGE
+ */
+
+
+
+
+/* START 6TH PAGE
+ */
+.shopsection {
+  /* temp styles */
+  background-color: #4a3e33;
+ }
+
+.shoptitle {
+  font-family: italiana;
+  text-transform: uppercase;
+  font-size: 10rem;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.shopdetails{
+  color: white;
+  font-family: roboto condensed;
+  text-align: center;
+  font-size: 2rem;
+  
+}
+
+
+.
+
+/* insert buttons here */
+.facetheory {
+	background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651615498/evolution%20again/Group_64_k1r3e3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+	border-radius:none;
+	display:inline-block;
+	cursor:pointer;
+	color:transparent;
+	font-size:0px;
+	padding:200px 150px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-left: -110px ;
+}
+.facetheory:hover {
+	background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651616418/evolution%20again/Group_66_jludpv.png);
+  background-position: center;
+}
+.facetheory:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+.ilia {
+	background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651614686/evolution%20again/Group_62_ccvztb.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+	border-radius:none;
+	display:inline-block;
+	cursor:pointer;
+	color:transparent;
+	font-size:0px;
+	padding:200px 150px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-left: -110px ;
+}
+.ilia:hover {
+	background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651616751/evolution%20again/Group_68_1_katwti.png);
+}
+.ilia:active {
+	position:relative;
+	top:1px;
+}
+
+
+.wedo {
+	background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651615229/evolution%20again/Group_62_1_lcurki.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+	border-radius:none;
+	display:inline-block;
+	cursor:pointer;
+	color:transparent;
+	font-size:0px;
+	padding:200px 150px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-left: -110px ;
+}
+.wedo:hover {
+	background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651616537/evolution%20again/Group_67_uqur4u.png);
+}
+.wedo:active {
+	position:relative;
+	top:1px;
+}
+
+.uni {
+	background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651615646/evolution%20again/Group_65_w48hyl.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+	border-radius:none;
+	display:inline-block;
+	cursor:pointer;
+	color:transparent;
+	font-size:0px;
+	padding:200px 150px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-top: 0px;
+  margin-left: -110px ;
+}
+.uni:hover {
+	background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651617012/evolution%20again/Group_69_koeya1.png);
+}
+.uni:active {
+	position:relative;
+	top:1px;
+}
+/* END 5TH. PAGE
+ */
+
+
+
+
+/* START THE 6TH PAGE */
+.featsection{
+  /* temp styles */
+  background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1650987731/evolution%20again/Group_54_s6hpxw.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ }
+
+h2.feattitle {
+  font-family: italiana;
+  text-transform: uppercase;
+  font-size: 7rem;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-left:50%;
+  margin-top:-20%;
+  color: white;
+}
+
+.featparagraph{
+  color: white;
+  font-family: roboto condensed;
+  text-align: center;
+margin-left: 50%;
+  padding-left: 10%;
+  font-size: 3rem;
+  line-height: 1.4;
+  
+}
+
+/* BUTTONS
+ */
+.vegamour {
+	background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651620980/evolution%20again/Group_58_rkjfvx.png);
+  background-size: 100%;
+	border-radius:none;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:transparent;
+	font-family:none;
+	font-size:0px;
+	padding:200px 200px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.vegamour:hover {
+background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651621835/evolution%20again/image_8_kjtn4x.png);
+background-size: 100%;
+}
+.vegamour:active {
+	position:relative;
+	top:1px;
+}
+
+.yttp {
+	background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651621204/evolution%20again/Group_70_tva93e.png);
+  background-size: 100%;
+	border-radius:none;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:transparent;
+	font-family:none;
+	font-size:0px;
+	padding:200px 200px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px;
+  margin-top: -400px;
+  z-index: 4;
+
+}
+.yttp:hover {
+	background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651621833/evolution%20again/image_7_ftmk1q.png);
+  background-size: 100%;
+}
+.yttp:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+/* END 6TH PAGE!!!
+ */
+
+/*EMAIL SIGN UP STYLING*/
+
+.subscribe-wrapper{
+  background-color: #thie;
+padding-bottom:0px;
+  padding-top: 0px;
+}
+
+.subscribeheader {
+  color: black;
+  font-family: Playfair display;
+  font-size: 3.5rem;
+  text-align:center;
+}
+
+.subscribeupdates {
+  font-family: playfair display;
+  font-size: 1.953rem;
+  color: black;
+  text-align: center;
+  padding-top: 35px;
+  line-height: 1.2;
+}
+/*STYLING FOR FLEXPARENT SIGNUP*/
+.buttonflexparent {
+    display: flex;
+    flex-grow: 1;
+    padding: 0;
+    align-items: baseline;
+  margin: 0 0;
+}
+.email-item,
+.button-item{
+  padding:2rem;
+  flex-grow:2;
+}
+
+/*STYLING FOR NAME AND EMAIL SIGN UP*/
+.email2 {
+  background-color: #CED7CB;
+  color: black;
+  text-align: left;
+  border: 1px solid black;
+  font-family: playfair display;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+/*STYLING FOR UNLOCK SALES BUTTON*/
+.mybutton-join{
+  box-shadow: 0px 5px 19px -4px black;
+  border: 1px solid black;
+  color: black;
+  background-color: #505346;
+  cursor: pointer;
+  font-family: playfair display;
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: none;
+  padding:1rem 5rem;
+  text-align:center;
+  white-space:nowrap;
+}
+
+/*END OF EMAIL SIGN UP STYLING*/
+
+
+
+/* START FINAL PAGE
+ */
+.footer-wrapper1 {
+  background-color: #4A3E33;
+  
+}
+
+.footer-flexparent{
+  display:flex;
+  flex-direction:row;
+  align-items:none;
+  padding:0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+div.nav{
+  padding-right: 57%;
+}
+
+
+.navigate-container,
+.follow-container,
+.contact-container{
+  padding: 1rem 4rem 0 0;
+  font-family:playfair display;
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-align: center;
+  
+  color:white;
+  
+}
+
+
+ .linkstyle{
+   color:white;
+   font-size:1.25rem;
+   text-decoration:underline;
+   font-family: playfair display;
+   text-transform: uppercase;
+  }
+
+p.phone{
+  font-family: playfair display;
+  font-size: 1.25rem;
+  margin-top: 50px;
+  text-align: center;
+}
+p.email,.address1,.address2{
+  font-family: playfair display;
+  font-size: 1.25rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div 
+{
+  
+  
+  
+  
+  
+/*   .footer-wrapper {
+  background-color: #F5EBE5;
+}
+
+.footer-flexparent{
+  display:flex;
+  flex-direction:row;
+ padding-top:1rem;
+  padding-bottom:1rem;
+  align-items:baseline;
+  padding:0;
+}
+
+.Sources,
+.navigate-container,
+.follow-container,
+.link3-container{
+  padding:0 0 0 3rem;
+  font-family:"Source Serif Pro";
+  font-weight:300;
+  color:#1D2E15;
+}
+.links,
+.photos,
+.earthday-footer{
+  font-size:1.5rem;
+  font-family:"Josefin Sans";
+  font-weight:600;
+  padding-bottom:1rem;
+  text-transform:uppercase;
+  white-sapce:nowrap;
+}
+ .linkstyle{
+   color:#1D2E15;
+   font-size:1.25rem;
+   text-decoration:underline;
+  }
+.address{
+  font-size:1.25rem;
+}
+
+div 
+{ */
+  
+  
+  
+  
+  
+  padding: 5em; /* your figma file uses 8px as a base measure */
+}
+
+nav,
+header,
+section,
+footer {
+  min-width: 320px;
+  max-width: 1125px; /* replace this value with the widh of your 12 col design*/
+  margin: 0 auto; /*centers main elements in parent*/
+  display: flex; /* creates auto columns*/
+  flex-wrap: wrap; /* make sure columns stack if widths exceed space*/
+  justify-content: space-between; /* distribute available space between elements*/
+
+  /* temp styles */
+}
+
+
+
+
+
+
+
+
+
+  padding: 5em; /* your figma file uses 8px as a base measure */
+}
+
+nav,
+header,
+section,
+footer {
+  min-width: 320px;
+  max-width: 1125px; /* replace this value with the widh of your 12 col design*/
+  margin: 0 auto; /*centers main elements in parent*/
+  display: flex; /* creates auto columns*/
+  flex-wrap: wrap; /* make sure columns stack if widths exceed space*/
+  justify-content: space-between; /* distribute available space between elements*/
+
+  /* temp styles */
+}
+/*  STOP FINAL PAGE
+ */
+
+}
+div {
+  padding: 5em; /* your figma file uses 8px as a base measure */
+}
+
+nav,
+header,
+section,
+footer {
+  min-width: 320px;
+  max-width: 1454px; /* replace this value with the widh of your 12 col design*/
+  margin: 0 auto; /*centers main elements in parent*/
+  display: flex; /* creates auto columns*/
+  flex-wrap: wrap; /* make sure columns stack if widths exceed space*/
+  justify-content: space-between; /* distribute available space between elements*/
+
+  /* temp styles */
+}
+
+
+
+/********MEDIA QUERIES******/
+
+@media only screen and (max-width: 1454px) {
+  html {
+    font-size: 100%;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 0rem;
+    flex-direction: column;
+    background-color: #4A3E33;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+  .nav-logo {
+    font-size: 4rem;
+    
+  }
+  .nav-link {
+    font-size: 2rem;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+
+/********************************************/
+
+  
+  
+  
+  @media only screen and (max-width: 1086px) {
+  html {
+    font-size: 70%;
+  }
+    
+    
+   
+      
+      @media only screen and (max-width: 717px) {
+  html {
+    font-size: 50%;
+  }
+        
+  @media only screen and (max-width: 471px) {
+  html {
+    font-size: 30%;
+  }
+        
+        
+    
+    
+    
+    
+  .nav-header {
+    padding-bottom: 5rem;
+  }
+  .nav-logo {
+    font-size: 3.052rem;
+  }
+
+  /**************MOBILE ABOVE THE FOLD STYLING**************/
+  .abf-wrapper {
+    background-position: 100% 100%;
+    background-size: 100%;
+  }
+  .abf-header {
+    padding-bottom: 150px;
+    padding-top: 10px;
+  } 
+    padding: 1rem 0 0 0;
+  }
+  
+
+  /************END ABOVE THE FOLD STYLING***************/
+
+
+  .subscribe-wrapper {
+    padding-bottom: 0px;
+    padding-top: 12px;
+  }
+
+  .subscribeheader,
+  .subscribeupdates {
+    text-align: center;
+  }
+
+  .subscribeupdates {
+    padding: 1rem 3rem 1rem 0;
+  }
+
+  .buttonflexparent {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: right;
+    flex: 100%;
+  }
+
+  .email-item,
+  .name-item {
+    padding: 0rem 4rem 0;
+    text-align: center;
+  }
+  .button-item {
+    padding: 2rem 2rem 2rem 0;
+    text-align: center;
+  }
+  .email,
+  .name {
+    padding: 1.5rem 29rem 1rem 1rem;
+    font-size: 1.953rem;
+  }
+  .mybutton-join {
+    padding: 1rem 6rem;
+    font-size:1rem;
+  }
+
+  .whycaretitle {
+    font-size: 5.052rem;
+    padding: 8rem;
+  }
+  
+  .flexparent-sustainability {
+    flex-direction: column;
+  }
+  .societalsection,
+  .carbonsection,
+  .glowsection {
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem 4rem 0 0;
+  }
+  .societalparagraph,
+  .carbonparagraph,
+  .glowskinparagraph {
+    font-size: 1.953rem;
+    text-align: center;
+    padding: 0.5rem 2rem 0 0;
+  }
+
+  /**********MOBILE VERSUS HEADINGS***********/
+        div.nvc-wrapper{
+          background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651602304/evolution%20again/da96634917396da22e8eaca31f9dc3bb_sdt579.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          padding-bottom: 50%;
+          padding-top: 0;
+        }
+.nvctitle{
+    text-align: center;
+  font-family: italiana;
+  font-size: 5rem;
+  margin-bottom: 70px;
+  margin-top:45px;
+  color: white;
+     
+  }
+        p.nvc-introparagraph{
+          font-family: playfair display;
+          font-size: 2rem;
+          line-height:2;
+          text-align: left;
+          color: white;
+          padding: 2em 3 ;
+          margin-top: 40px;
+        }
+        
+        
+        div.shopsection{
+          background-image: url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1651622418/evolution%20again/Group_72_hlvk1m.png);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          padding: 0em 0em 2em 0;
+        }
+        
+        .flexparent-sustainability2{
+          display: flex;
+          flex-direction: row;
+          
+        }
+        
+        .facetheory,
+        .wedo,
+        .ilia,
+        .uni{
+	border-radius:none;
+	display:block;
+	cursor:pointer;
+	padding:90px 70px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;       }
+        
+        
+        .featsection{
+          background-image:url(https://res.cloudinary.com/dnneqsm9j/image/upload/v1650987731/evolution%20again/Group_54_s6hpxw.jpg);
+          background-repeat: no-repeat;
+          backrond-size: cover;
+          padding-top: 100px;
+          
+          
+        }
+        
+        .vegamour,.yttp{
+        border-radius:none;
+	display:inline-block;
+	cursor:pointer;
+	padding:90px 90px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;       }
+       
+        
+    
+  /* end @media max-widh 400px */
